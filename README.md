@@ -20,3 +20,7 @@ Download and Install Knative Quickstart Plugin from https://github.com/knative-s
 
 
 **Add the PATH Variable to have this access from anywhere**
+
+Note:  I have put all the three executables in to docker executable folders to avoid adding PATH variables for all the three files.
+
+![image](https://user-images.githubusercontent.com/30829678/187967483-c6fc5b4c-7f57-41a1-aa3d-03ec0dab8a92.png)

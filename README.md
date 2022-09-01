@@ -41,3 +41,10 @@ Note:  I have put all the three executables in to docker executable folders to a
 # Step 2 - Create and Deploy Docker Image to your Preferred Cloud
 
 
+## Create out of box .Net Core Api Project
+- I will be using my existing .Net Core Api project to save some time.  You can refer to it here - https://github.com/vivekmvp/TodoApiWithVersioning
+- I will be adding Docker Functionality on top of the existing functionality.
+
+
+
+

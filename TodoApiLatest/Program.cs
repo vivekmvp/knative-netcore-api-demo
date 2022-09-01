@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using Swashbuckle.Swagger;
+using Swashbuckle.AspNetCore.Swagger;
 using TodoApiLatest.Extensions;
 using TodoApiLatest.Models;
 using Microsoft.EntityFrameworkCore;

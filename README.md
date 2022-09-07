@@ -146,17 +146,17 @@ but when I run the below command, I have noticed that knative cluster was create
 - Step 1 - We will create todoapi.yaml file with following content
 - Step 2 - We will run the command to create knative service `kubectl apply -f todoapi.yaml`
 
-    apiVersion: serving.knative.dev/v1
-    kind: Service
-    metadata:
-      name: todoapi
-    spec:
-      template:
+        apiVersion: serving.knative.dev/v1
+        kind: Service
+        metadata:
+          name: todoapi
         spec:
-          containers:
-            - image: knativedemoapp.azurecr.io/todoapilatest
-              ports:
-                - containerPort: 443
+          template:
+            spec:
+              containers:
+                - image: knativedemoapp.azurecr.io/todoapilatest
+                  ports:
+                    - containerPort: 443
 
 ![image](https://user-images.githubusercontent.com/30829678/188982853-ca76e206-b27c-4df7-ba3e-2d46c831c7de.png)
 

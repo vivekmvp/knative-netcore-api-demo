@@ -168,5 +168,3 @@ but when I run the below command, I have noticed that knative cluster was create
 Looks like Knative services are not working for me as expected.  I will need to research this further.
 
 ![image](https://user-images.githubusercontent.com/30829678/188987962-484e29f8-6b1b-430b-9b95-72b25d949b9b.png)
-
-![image](https://user-images.githubusercontent.com/30829678/188985915-cf48cc90-c66e-4781-8638-b22ba30de89e.png)

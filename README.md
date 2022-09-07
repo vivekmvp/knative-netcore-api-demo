@@ -126,15 +126,15 @@ Deploying Local .Net Core Api to Azure Container Registry through Azure CLI Comm
 ![image](https://user-images.githubusercontent.com/30829678/188966053-e58ccb99-306d-4154-b5f8-add1b31c18d5.png)
 
 
-I tried using kind but wasn't able to successfully create the cluster.  It stops everytime at below step:
+For some reason, I wasn't able to successfully run all steps..  It stops everytime at below step:
 
 ![image](https://user-images.githubusercontent.com/30829678/188971568-45fca0fd-5e6b-495a-8961-010f01da3a43.png)
 
-So trying to create cluster with minikube.  **Download Minikube - https://minikube.sigs.k8s.io/docs/start/ **
+but when I run the below command, I have noticed that knative cluster was created successfully.
 
-Direct download link - https://storage.googleapis.com/minikube/releases/latest/minikube-installer.exe
+`kubectl cluster-info --context kind-knative`
 
-`kn quickstart minikube`
+`kind get clusters`
 
-
+![image](https://user-images.githubusercontent.com/30829678/188974358-45a4fee1-e873-495e-9c76-f096be654741.png)
 

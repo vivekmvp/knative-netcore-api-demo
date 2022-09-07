@@ -119,8 +119,22 @@ Deploying Local .Net Core Api to Azure Container Registry through Azure CLI Comm
 
 ## Create Knative cluster
 
-**Install Knative and Kubernetes using kind by running:**
+- Before running below command, please make sure Docker Desktop is running otherwise you will get error.
 
-Note:  [kind](https://kind.sigs.k8s.io/) is a tool for running local Kubernetes clusters using Docker container “nodes”.  kind was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
+`kn quickstart kind`
 
-- I will be using my existing .Net Core Api project to save some time.  You can refer to it here - https://github.com/vivekmvp/TodoApiWithVersioning
+![image](https://user-images.githubusercontent.com/30829678/188966053-e58ccb99-306d-4154-b5f8-add1b31c18d5.png)
+
+
+I tried using kind but wasn't able to successfully create the cluster.  It stops everytime at below step:
+
+![image](https://user-images.githubusercontent.com/30829678/188971568-45fca0fd-5e6b-495a-8961-010f01da3a43.png)
+
+So trying to create cluster with minikube.  **Download Minikube - https://minikube.sigs.k8s.io/docs/start/ **
+
+Direct download link - https://storage.googleapis.com/minikube/releases/latest/minikube-installer.exe
+
+`kn quickstart minikube`
+
+
+

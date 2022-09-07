@@ -161,3 +161,12 @@ but when I run the below command, I have noticed that knative cluster was create
 ![image](https://user-images.githubusercontent.com/30829678/188982853-ca76e206-b27c-4df7-ba3e-2d46c831c7de.png)
 
 ![image](https://user-images.githubusercontent.com/30829678/188983449-1e8d3ddc-99eb-4ad1-87cf-fb7ee52f0262.png)
+
+
+**List all Knative Service**
+
+Looks like Knative services are not working for me as expected.  I will need to research this further.
+
+![image](https://user-images.githubusercontent.com/30829678/188987962-484e29f8-6b1b-430b-9b95-72b25d949b9b.png)
+
+![image](https://user-images.githubusercontent.com/30829678/188985915-cf48cc90-c66e-4781-8638-b22ba30de89e.png)
